@@ -24,6 +24,8 @@
 #         print("pero no por encima de 20")
     
 
+
+# EJERCICIO 1
 n1 = int(input("Ingresa el primer número: "))
 n2 = int(input("Ingresa el segundo número: "))
 
