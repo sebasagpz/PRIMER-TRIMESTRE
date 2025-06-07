@@ -95,27 +95,32 @@
 # # 2. Ejercicios con Listas (con condicionales)
 
 
-print(f"EJERCICIO 11")
-pre111 = (int(input(f"Ingrese un primer numero: ")))
-pre112 = (int(input(f"Ingrese un segundo numero: ")))
-pre113 = (int(input(f"Ingrese un tercer numero: ")))
-pre114 = (int(input(f"Ingrese un cuarto numero: ")))
-pre115 = (int(input(f"Ingrese un quinto numero: ")))
-lista1 = [pre111, pre112, pre113, pre114, pre115]
+# print(f"EJERCICIO 11")
+# pre111 = (int(input(f"Ingrese un primer numero: ")))
+# pre112 = (int(input(f"Ingrese un segundo numero: ")))
+# pre113 = (int(input(f"Ingrese un tercer numero: ")))
+# pre114 = (int(input(f"Ingrese un cuarto numero: ")))
+# pre115 = (int(input(f"Ingrese un quinto numero: ")))
+# lista1 = [pre111, pre112, pre113, pre114, pre115]
 
-print(lista1)
-if lista1[2] > 10:
-    print("es Mayor a 10")
-elif lista1[2] <= 10:
-    print("es menor o igual a 10")
+# print(lista1)
+# if lista1[2] > 10:
+#     print("es Mayor a 10")
+# elif lista1[2] <= 10:
+#     print("es menor o igual a 10")
     
 
 # print(f"EJERCICIO 12")
-# lista2= [3, 5, 7, 9]
-# if 7 in lista2:
-#     print("El numero 7 SI está en la lista")
-# else:
-#     print("El numero 7 NO está en la lista")
+pre121 = (int(input(f"Ingrese un primer numero: ")))
+pre122 = (int(input(f"Ingrese un segundo numero: ")))
+pre123 = (int(input(f"Ingrese un tercer numero: ")))
+pre124 = (int(input(f"Ingrese un cuarto numero: ")))
+pre125 = (int(input(f"Ingrese un quinto numero: ")))
+lista2 = [pre121, pre122, pre123, pre124, pre125]
+if 7 in lista2:
+    print("El numero 7 SI está en la lista")
+else:
+    print("El numero 7 NO está en la lista")
 
 # print("EJERCICIO 13")
 # list00=[4, 6, 2, 8]
