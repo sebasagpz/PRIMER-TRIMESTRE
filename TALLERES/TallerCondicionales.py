@@ -96,120 +96,128 @@
 
 
 print(f"EJERCICIO 11")
-lista1 = [2, 5, 8, 9, 3]
+pre111 = (int(input(f"Ingrese un primer numero: ")))
+pre112 = (int(input(f"Ingrese un segundo numero: ")))
+pre113 = (int(input(f"Ingrese un tercer numero: ")))
+pre114 = (int(input(f"Ingrese un cuarto numero: ")))
+pre115 = (int(input(f"Ingrese un quinto numero: ")))
+lista1 = [pre111, pre112, pre113, pre114, pre115]
 
+print(lista1)
 if lista1[2] > 10:
     print("es Mayor a 10")
 elif lista1[2] <= 10:
     print("es menor o igual a 10")
     
 
-print(f"EJERCICIO 12")
-lista2= [3, 5, 7, 9]
-if 7 in lista2:
-    print("El numero 7 SI está en la lista")
-else:
-    print("El numero 7 NO está en la lista")
+# print(f"EJERCICIO 12")
+# lista2= [3, 5, 7, 9]
+# if 7 in lista2:
+#     print("El numero 7 SI está en la lista")
+# else:
+#     print("El numero 7 NO está en la lista")
 
-print("EJERCICIO 13")
-list00=[4, 6, 2, 8]
-sume = list00[0] + list00[1]
-if sume > 10:
-    print("Suma alta")
-else:
-    print("Suma baja")
+# print("EJERCICIO 13")
+# list00=[4, 6, 2, 8]
+# sume = list00[0] + list00[1]
+# if sume > 10:
+#     print("Suma alta")
+# else:
+#     print("Suma baja")
 
-print(f"EJERCICIO 14")
-print("Nombre correcto")
-name= ["Ana", "Luis", "Pedro", "Marta"]
-ulti_name= name[-1]  
-if ulti_name == "Marta":
-    print("Nombre correcto")
-else:
-    print("Nombre diferente")
+# print(f"EJERCICIO 14")
+# print("Nombre correcto")
+# name= ["Ana", "Luis", "Pedro", "Marta"]
+# ulti_name= name[-1]  
+# if ulti_name == "Marta":
+#     print("Nombre correcto")
+# else:
+#     print("Nombre diferente")
 
-print(f"EJERCICIO 15")
-print("Lista de colores")
-colors= ["magenta", "azul", "dorado"]
-print(colors)
-if colors[1] == "azul":
-    colors[1] = "amarillo" 
-    print(f"Se ha actualizado la lista {colors}")
-else:
-    print("La lista no se ha actualizado")
+# print(f"EJERCICIO 15")
+# print("Lista de colores")
+# colors= ["magenta", "azul", "dorado"]
+# print(colors)
+# if colors[1] == "azul":
+#     colors[1] = "amarillo" 
+#     print(f"Se ha actualizado la lista {colors}")
+# else:
+#     print("La lista no se ha actualizado")
 
 
 
-print(f"EJERCICIO 16")
-print("Orden ascendente o descendente")
-tupla00= (5, 8, 12, 20)
-print(tupla00)
-if tupla00[0] < tupla00[-1]:
-    print("Orden ascendente")
-else:
-    print("Orden descendente")
+# print(f"EJERCICIO 16")
+# print("Orden ascendente o descendente")
+# tupla00= (5, 8, 12, 20)
+# print(tupla00)
+# if tupla00[0] < tupla00[-1]:
+#     print("Orden ascendente")
+# else:
+#     print("Orden descendente")
     
-print(f"EJERCICIO 17")
-tupla5 = (25, 32, 28)
-if tupla5[1] > 30:
-    print("Edad mayor a 30")
-else:
-    print("Edad menor o igual a 30")
+# print(f"EJERCICIO 17")
+# tupla5 = (25, 32, 28)
+# if tupla5[1] > 30:
+#     print("Edad mayor a 30")
+# else:
+#     print("Edad menor o igual a 30")
 
-print(f"EJERCICIO 18")
-tup23=(1,2,3)
-listac = list(tup23)
-if listac [1] == 2:
-    listac[1] == 10
-tuplc = tuple[listac]
-print(tuplc)
+# print(f"EJERCICIO 18")
+# tup23=(1,2,3)
+# listac = list(tup23)
+# if listac [1] == 2:
+#     listac[1] == 10
+# tuplc = tuple[listac]
+# print(tuplc)
 
 
 
-print(f"EJERCICIO 19")
-tupla7 = (4, 9)
-if tupla7[1] > 5:
-    print("Coordenada alta")
-else:
-    print("Coordenada baja")
+# print(f"EJERCICIO 19")
+# tupla7 = (4, 9)
+# if tupla7[1] > 5:
+#     print("Coordenada alta")
+# else:
+#     print("Coordenada baja")
 
-print(f"EJERCICIO 20")
-tupla8 = (3, 4)
-tupla9 = (3, 5)
-if tupla8 == tupla9:
-    print("Tuplas iguales")
-else:
-    print("Tuplas diferentes")
+# print(f"EJERCICIO 20")
+# tupla8 = (3, 4)
+# tupla9 = (3, 5)
+# if tupla8 == tupla9:
+#     print("Tuplas iguales")
+# else:
+#     print("Tuplas diferentes")
 
-print(f"EJERCICIO 21")
-dic1 = {"nombre": "Juan", "edad": 17}
-if dic1["edad"] >= 18:
-    print("Adulto")
-else:
-    print("Menor de edad")
+# print(f"EJERCICIO 21")
+# dic1 = {"nombre": "Juan", "edad": 17}
+# if dic1["edad"] >= 18:
+#     print("Adulto")
+# else:
+#     print("Menor de edad")
 
-print(f"EJERCICIO 22")
-dic2 = {"nombre": "Lucía", "edad": 20}
-if dic2["edad"] > 18:
-    dic2["edad"] = 21
-print(dic2)
+# print(f"EJERCICIO 22")
+# dic2 = {"nombre": "Lucía", 
+#         "edad": 20}
+# if dic2["edad"] > 18:
+#     dic2["edad"] = 21
+# print(dic2)
 
-print(f"nEJERCICIO 23")
-dic3 = {"nombre": "Carlos"}
-if "ciudad" not in dic3:
-    dic3["ciudad"] = "Bogotá"
-print(dic3)
+# print(f"nEJERCICIO 23")
+# dic3 = {"nombre": "Carlos"}
+# if "ciudad" not in dic3:
+#     dic3["ciudad"] = "Bogotá"
+# print(dic3)
 
-print(f"EJERCICIO 24")
-dic4 = {"producto": "pan", "precio": 1200}
-if "precio" in dic4:
-    print(dic4["precio"])
-else:
-    print("No hay precio")
+# print(f"EJERCICIO 24")
+# dic4 = {"producto": "pan", "precio": 1200}
+# if "precio" in dic4:
+#     print(dic4["precio"])
+# else:
+#     print("No hay precio")
 
-print(f"EJERCICIO 25")
-dic5 = {"pan": 1200, "leche": 2000}
-if "pan" in dic5:
-    print(dic5["pan"])
-else:
-    print("Producto no disponible")
+# print(f"EJERCICIO 25")
+# dic5 = {"pan": 1200, 
+#         "leche": 2000}
+# if "pan" in dic5:
+#     print(dic5["pan"])
+# else:
+#     print("Producto no disponible")
