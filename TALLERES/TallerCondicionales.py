@@ -107,8 +107,6 @@ elif nu99%5==0:
 else:
     print("El numero no es multiplo ni de 3 ni de 5")
 
-#------------------------------------------------------------------------------------
-
 print(f"EJERCICIO 10")
 print("Determinar si el numero es divisible entre otros")
 
@@ -139,7 +137,7 @@ elif lista1[2] <= 10:
     print("es menor o igual a 10")
     
 
-# print(f"EJERCICIO 12")
+print(f"EJERCICIO 12")
 pre121 = (int(input(f"Ingrese un primer numero: ")))
 pre122 = (int(input(f"Ingrese un segundo numero: ")))
 pre123 = (int(input(f"Ingrese un tercer numero: ")))
