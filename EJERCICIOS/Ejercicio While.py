@@ -216,3 +216,5 @@ while True:
 print("\nLista completa de estudiantes y notas:")
 print(estu)
 print("Finaliza el programa")
+
+print("EJERCICIOS WHILE")
